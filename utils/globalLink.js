@@ -1,0 +1,1 @@
+export const globalLink = process.env.GLOBAL_PORT;

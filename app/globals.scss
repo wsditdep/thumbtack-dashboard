@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+// .jodit-container:not(.jodit_inline) .jodit-wysiwyg {
+//     background: #fff;
+//     min-height: 400px !important;
+//     max-height: 400px !important;
+// }
+
+// .jodit-icon_fullsize.jodit-icon {
+//     display: none !important;
+// }
+
+// .jodit-status-bar a.jodit-status-bar-link {
+//     display: none !important;
+// }
+
+// .makeTextDefault {
+//     h1,
+//     h2,
+//     h3,
+//     h4,
+//     h5,
+//     h6,
+//     p,
+//     span,
+//     a {
+//         color: black !important;
+//         margin-bottom: 0 !important;
+//     }
+// }
+
+.multi-range-slider .ruler {
+    color: white;
+}
+
+.multi-range-slider .labels {
+    color: white;
+}
+
+.multi-range-slider {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.multi-slider {
+    border: 1px solid rgb(139, 139, 139);
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    .min_max_val {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -0.5rem;
+
+        h3 {
+            color: white;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+    }
+}
+
+.creditScore {
+    border: 1px solid rgb(139, 139, 139);
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    p {
+        margin-bottom: 1rem !important;
+    }
+
+    .creditScoreWrapper {
+        ul {
+            display: flex;
+            justify-content: center;
+
+            li {
+                list-style-type: none;
+                background: #ffffff37;
+                height: 2rem;
+                width: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 1rem;
+                border-radius: 0.2rem;
+                color: white;
+                cursor: pointer;
+            }
+
+            .scoreActive {
+                background: green;
+            }
+        }
+    }
+}
